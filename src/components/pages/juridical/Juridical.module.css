@@ -1,0 +1,111 @@
+.statistic{
+  width: 1200px;
+  height: fit-content;
+  margin: 200px auto;
+}
+.statistic h4{
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: normal;
+  margin: 0 0 70px 0;
+}
+.statContainer{
+  display: flex;
+}
+.numbers{
+  width: 660px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.numbers div{
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  font-weight: 300;
+  width: 330px;
+}
+.numbers div span {
+  font-size: 20px;
+  font-weight: 300;
+}
+.statImg{
+  width: 540px;
+}
+.statImg img{
+  width: 100%;
+}
+
+
+.comfort{
+  width: 1200px;
+  height: fit-content;
+  margin: 200px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comfortHeader p{
+  width: 600px;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 30px;
+}
+.comfortHeader h2{
+  font-size: 1.7em;
+  font-weight: 400;
+  color: #00a942;
+}
+.comfortImgs img{
+  width: 600px;
+}
+
+.buisnes{
+  display: flex;
+  width: 1200px;
+  margin: 100px auto;
+  align-items: center;
+  text-align: center;
+}
+.buisnesBody p{
+  display: block;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 30px;
+}
+.buisnesImgs img{
+  padding-right: 20px;
+  width: 600px;
+}
+.buisnesBody h2{
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #00a942;
+}
+.buisnesBody a{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #00a942;
+  margin: 0 auto;
+  width: 350px;
+  height: 80px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.buisnesBody button:hover{
+  animation: btnAnim 0.3s ease forwards;
+}
+
+@keyframes btnAnim {
+  from{
+    background-color:#00a942;
+  }
+  to{
+    background-color:#00c54c;
+  }
+}

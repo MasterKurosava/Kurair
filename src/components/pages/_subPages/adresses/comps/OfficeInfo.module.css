@@ -1,0 +1,139 @@
+.officeData{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+}
+.textInfo{
+  width: 450px;
+}
+.textInfo h1{
+  font-size: 35px;
+  font-weight: 300;
+  margin: 0;
+}
+.classific{
+  width: 380px;
+  font-size: 16px;
+  color:#999
+}
+.classificList{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+.classificItem{
+  display: flex;
+  align-items: center;
+  line-height: 25px;
+  margin-right: 10px;
+}
+.added{
+  padding:0 10px;
+}
+.added::before{
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 5px;
+  height: 5px;
+  right: 6px;
+  border-radius: 50%;
+  background-color: #00a942;
+}
+.infoBlock{
+  margin: 30px 0;
+}
+.infoBlock strong{
+  display: block;
+  font-size: 19px;
+  margin: 10px 0;
+}
+
+.busStops{
+  font-size: 14px;
+}
+.busStops h3{
+  margin: 5px 0;
+  font-size: 25px;
+  font-weight: 400;
+}
+.undegroundList{
+  list-style: none;
+  padding: 0;
+  padding-left: 10px;
+}
+.undeground{
+  line-height: 25px;
+}
+.undeground::before{
+  content: "";
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  top: -1px;
+  left: -10px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 50%;
+}
+.way{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.buildWay{
+  margin-left: 10px;
+  font-size: 16px;
+  color:#00a942;
+  border-bottom: 1px dashed #00a942;
+}
+
+.work p, .work span{ font-size: 14px}
+.work span{color:#c84b4b}
+
+.payVariant{
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  margin: 10px 0;
+}
+.icon{
+  width: 25px;
+  height: 20px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+.contactPhone, .contactMail{
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  margin: 10px 0;
+}
+.contactMail a{
+  color:#00a942;
+  text-decoration: underline solid #00a942;
+}
+
+.imgInfo{
+  margin: 80px 0;
+}
+.mapData{
+  width: 750px;
+  height: 280px;
+}
+/* map */
+[class*="ymaps-2"][class*="-ground-pane"]{
+	-ms-filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	filter: grayscale(1);
+}
+[class*="gototaxi"]{
+  display: none;
+}

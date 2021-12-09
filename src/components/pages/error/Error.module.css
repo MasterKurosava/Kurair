@@ -1,0 +1,32 @@
+.notFound{
+  width: 770px;
+  margin: 0 auto;
+  text-align: center;
+}
+.title{
+  font-size: 280px;
+  color:#00a942;
+  font-weight: 700;
+}
+.message{
+  font-size: 34px;
+  font-weight: 300;
+}
+.description{
+  line-height: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.back{
+  cursor: pointer;
+  font-weight: 500;
+}
+.back:hover{
+  animation: backAnim 0.5s forwards;
+}
+@keyframes backAnim {
+  to{
+    color:#00a942
+  }
+}

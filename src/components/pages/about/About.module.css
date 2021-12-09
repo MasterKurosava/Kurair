@@ -1,0 +1,117 @@
+.aboutPage{display: block}
+.preView{
+  width: 1400px;
+  height: 510px;
+  margin: 0 auto 200px auto;
+}
+.informationContainer{ width: 1200px; margin: 0 auto}
+
+.intering, .mission{
+  margin: 150px 0;
+  width: 880px;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 34px;
+}
+.valuesData{ display: flex; flex-wrap: wrap;}
+
+.valuesItem{
+  box-sizing: border-box;
+  width: 50%;
+  padding-right: 150px;
+  font-size: 18px;
+  margin: 30px 0;
+}
+.advantages{display: block;}
+.advantageItem{
+  position: relative;
+  width: 665px;
+  padding-left: 40px;
+  margin: 20px 0;
+  z-index: 10;
+
+  font-size: 17px;
+  font-weight: 400;
+}
+.siteNum{
+  display: inline-block;
+  position: absolute;
+  left:6px;
+  top: -12px;
+  font-size: 80px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.12);
+  z-index: 0;
+}
+.advantageTitle{
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.ending{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 34px;
+  line-height: 50px;
+  width: 870px;
+  margin-top: 120px;
+}
+.actions{display: flex}
+.actions a{text-decoration: none;color:black}
+
+.actionItem{
+  box-sizing: border-box;
+  margin-top: 200px;
+  width: 400px;
+  height: 250px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 50px 0 50px 50px;
+  margin-bottom: 150px;
+  font-weight: 300;
+}
+.svgBlock{ 
+  width: 80px; 
+  height: 80px;
+}
+.svgBlock path{
+  stroke: black;
+}
+.actionItem span{
+  margin-top: 20px;
+  display: block;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.actionItem:hover{animation: actionAnim 0.3s ease forwards}
+.actionItem:hover > .svgBlock path{
+  animation: pathAnim 0.3s ease forwards;
+}
+.actionItem:hover > span{
+  animation: spanAnim 0.3s ease forwards;
+}
+@keyframes actionAnim {
+  from{
+    box-shadow: none;
+  }
+  to{
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes pathAnim {
+  from{
+    stroke: rgb(0,0,0);
+  }
+  to{
+    stroke: rgb(0,177,59);
+  }
+}
+@keyframes spanAnim {
+  from{
+    color: rgb(0,0,0);
+  }
+  to{
+    color: rgb(0,177,59);
+  }
+}

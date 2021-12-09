@@ -1,0 +1,37 @@
+.contractPage{
+  width: 1200px;
+  height: 100%;
+  margin: 40px auto;
+}
+.contractPage p{
+  font-size: 20px;
+  font-weight: 300;
+}
+.contractPage a{
+  display: block;
+  width: fit-content;
+  font-size: 22px;
+  font-weight: 400;
+  color: #00a942;
+}
+.linkBlock{
+  margin: 50px 0;
+}
+.linkBlock a{
+  line-height: 40px;
+  font-size: 18px;
+}
+.blank, .blank a{
+  color:black;
+  font-weight: 300;
+  font-size: 19px;
+}
+.blank a{
+  color: #00a942;
+  font-size: 20px;
+  display: inline-block;
+}
+.blank :first-child{
+  display: block;
+  margin: 20px 0;
+}

@@ -1,0 +1,99 @@
+.information{
+  width: 1200px;
+  height: fit-content;
+  margin: 200px auto;
+  display: flex;
+  align-items: center;
+}
+h4{
+  font-weight:500;
+  font-size: 28px;
+  color: #00a942;
+}
+.text{
+  width: 50%;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+.text strong{font-weight: 500;font-size: 21px;}
+
+.companies{
+  background-color: #f6f7f9;
+  width: 50%;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 40px;
+  margin: 10px;
+}
+.imgs{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: center;
+}
+.imgs .imgBlock{
+  box-sizing: border-box;
+  width: 50%;
+  padding: 20px;
+}
+.imgs .imgBlock img{width: 100%;}
+
+.conveniences{width: 1200px;margin: 100px auto;}
+.forContainer{
+  width: 100%;
+  height: 590px;
+  margin-top: 40px;
+  display: flex;
+}
+.forContainer a{text-decoration: none; color:black}
+.forContainer h4{color:black;font-weight: 300;}
+
+.forContainer .forYou,
+.forContainer .forClients{
+  width: 50%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 30px 50px;
+}
+
+.forYouBlock{width: 160px; text-align: center;}
+.forYouBlock img{display: block; margin: 10px auto;}
+
+.intsBlock{
+  width: 320px;
+  margin-top: 100px;
+}
+.ints{
+  box-sizing: border-box;
+  width: 260px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ints img{width: 100px;}
+.ints a{margin: 10px;}
+.more{
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 30px;
+  width: 120px;
+  font-size: 14px;
+}
+.more a:hover{color:#00a942;text-decoration: none;}
+
+.forClients{display: block; width: 100%;}
+.acts{display: flex; margin-top: 30px; flex-wrap: wrap;}
+.acts a{
+  display: block;
+  margin: 0 100px 40px 0 ;
+}
+.activity{
+  width: 110px; 
+  text-align: center;
+}
+.activity img{
+  display: block; 
+  margin: 0 auto 20px auto;
+}

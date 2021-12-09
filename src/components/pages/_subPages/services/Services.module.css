@@ -1,0 +1,13 @@
+.servicesPage{
+  width: 1200px;
+  margin: 0 auto;
+}
+.title{
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 300;
+  color:#00a942;
+}
+.servicesContainer{
+  margin-top: 117px;
+}

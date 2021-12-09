@@ -1,0 +1,201 @@
+{
+  "rates":[
+    {
+      "name":"Посылочка",
+      "description":"Экономичная наземная доставка для частных лиц",
+      "maxWeight":"до 12 кг",
+      "minTime":"от 2 дней",
+      "cities":"Россия, Беларусь, Казахстан",
+      "top":true, "fast":false,
+      "filter":{
+        "inCountry":true,
+        "fastDevelery":true,
+        "hightWeight": false,
+        "outContry": false
+      },
+      "fromTo":[
+        "От двери до двери",
+        "От пункта СДЭК до двери",
+        "От пункта СДЭК до пункта СДЭК",
+        "От двери до пункта СДЭК"
+      ]
+    },
+
+    {
+      "name":"Экспресс-лайт",
+      "description":"Экспресс-доставка документов и мелких грузов",
+      "maxWeight":"до 30 кг",
+      "minTime":"от 1 дня",
+      "cities":"Россия, Беларусь, Казахстан, Армения, Киргизия, Узбекистан, Китай",
+      "top":true, "fast":false,
+      "filter":{
+        "inCountry":true,
+        "fastDevelery":true,
+        "hightWeight": false,
+        "outContry": false
+      },
+      "fromTo":[
+        "От двери до двери",
+        "От пункта СДЭК до двери",
+        "От пункта СДЭК до пункта СДЭК",
+        "От двери до пункта СДЭК"
+      ]
+    },
+
+    {
+      "name":"Экспресс-тяжеловесы",
+      "description":"Экспресс доставка грузов",
+      "maxWeight":"до 30 кг",
+      "minTime":"от 1 дня",
+      "cities":"Россия, Беларусь, Казахстан, Армения, Киргизия, Узбекистан, Китай",
+      "top":false, "fast":false,
+      "filter":{
+        "inCountry":false,
+        "fastDevelery":false,
+        "hightWeight": true,
+        "outContry": false
+      },
+      "fromTo":[
+        "От пункта СДЭК до пункта СДЭК",
+        "От двери до пункта СДЭК"
+      ]
+    },
+
+    {
+      "name":"Супер-экспресс",
+      "description":"Срочная доставка к определенному часу документов и мелких грузов",
+      "maxWeight":"до 30кг",
+      "minTime":"от 1 дня",
+      "cities":"Россия, Беларусь, Казахстан, Армения, Киргизия",
+      "top":false, "fast":true,
+      "filter":{
+        "inCountry":true,
+        "fastDevelery":true,
+        "hightWeight": false,
+        "outContry": false
+      },
+      "fromTo":[
+        
+        "От двери до двери",
+        "От пункта СДЭК до двери",
+        "От пункта СДЭК до пункта СДЭК"
+      ]
+    },
+
+    {
+      "name":"Магистральный экспресс",
+      "description":"Экономичная наземная доставка",
+      "maxWeight":"",
+      "minTime":"1-2 дня",
+      "cities":"Россия, Беларусь, Казахстан, Киргизия",
+      "top":false, "fast":false,
+      "filter":{
+        "inCountry":true,
+        "fastDevelery":false,
+        "hightWeight": true,
+        "outContry": false
+      },
+      "fromTo":[
+        "От пункта СДЭК до двери",
+        "От пункта СДЭК до пункта СДЭК"
+      ]
+    },
+
+    {
+      "name":"Экономичный экспресс",
+      "description":"Экономичная наземная доставка",
+      "maxWeight":"",
+      "minTime":"от 3 дней",
+      "cities":"Россия, Беларусь, Казахстан, Армения, Киргизия",
+      "top":false, "fast":false,
+      "filter":{
+        "inCountry":true,
+        "fastDevelery":false,
+        "hightWeight": false,
+        "outContry": false
+      },
+      "fromTo":[
+        "От пункта СДЭК до двери",
+        "От пункта СДЭК до пункта СДЭК",
+        "От двери до пункта СДЭК"
+      ]
+    },
+
+    {
+      "name":"Блиц-экспресс",
+      "description":"Срочная доставка в течении суток",
+      "maxWeight":"до 5 кг",
+      "minTime":"1 сутки",
+      "cities":"Россия, Беларусь, Казахстан",
+      "top":false, "fast":false,
+      "filter":{
+        "inCountry":false,
+        "fastDevelery":true,
+        "hightWeight": false,
+        "outContry": false
+      },
+      "fromTo":[
+        "От двери до двери",
+        "От пункта СДЭК до двери",
+        "От пункта СДЭК до пункта СДЭК"
+      ]
+    },
+
+    {
+      "name":"Китайский экспресс",
+      "description":"Экономичная доставка грузов по направлениям из Китая и в Китай",
+      "maxWeight":"",
+      "minTime":"от 7 дней",
+      "cities":"Россия - КНР, КНР - Россия, КНР-Казахстан, КНР-Беларусь, КНР-Киргизия",
+      "top":false, "fast":false,
+      "filter":{
+        "inCountry":false,
+        "fastDevelery":false,
+        "hightWeight": false,
+        "outContry": true
+      },
+      "fromTo":[
+        "От пункта СДЭК до пункта СДЭК"
+      ]
+    },
+
+    {
+      "name":"Международный экспресс грузы",
+      "description":"Международная доставка грузов",
+      "maxWeight":"",
+      "minTime":"от 5 дней",
+      "cities":"Экспорт и импорт из/в Россию, Беларусь, Армению, Киргизию, Казахстан",
+      "top":false, "fast":false,
+      "filter":{
+        "inCountry":false,
+        "fastDevelery":false,
+        "hightWeight": false,
+        "outContry": true
+      },
+      "fromTo":[
+        "От пункта СДЭК до пункта СДЭК"
+      ]
+    },
+
+    {
+      "name":"Посылка",
+      "description":"Экспресс-доставка  товаров интернет-магазинов",
+      "maxWeight":"до 30 кг",
+      "minTime":"от 1 дня",
+      "cities":"Россия, Беларусь, Казахстан, Армения, Киргизия",
+      "top":false, "fast":false,
+      "filter":{
+        "inCountry":false,
+        "fastDevelery":true,
+        "hightWeight": false,
+        "outContry": false
+      },
+      "fromTo":[
+        "От двери до двери",
+        "От пункта СДЭК до двери",
+        "От пункта СДЭК до пункта СДЭК",
+        "От двери до пункта СДЭК"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+.slider{
+  margin: 100px auto;
+  width: 1200px;
+  height: 300px;
+}
+.sliderBlock{
+  width: 100%;
+  height: 255px;
+  display: flex;
+  align-items: center;
+}
+.photoData{
+  overflow: hidden;
+}
+.photosRow{
+  display: flex;
+}
+.photo, .photo img{
+  width:550px;
+  height: 255px;
+}
+.string{
+  cursor: pointer;
+  width: 70px;
+  height: 50px;
+}
+.string:first-child{
+  transform: rotate(180deg)
+}
+.firstPhoto, .secondPhoto{
+  width: 565px;
+  height:250px;
+}
+.firstPhoto img, .secondPhoto img{
+  width: 565px;
+  height:250px;
+}
+.navigation{
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.navItem{
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  background-color: rgb(185, 185, 185);
+  border-radius: 50px;
+}
+.navItem.active,.navItem:hover{
+  background-color: rgb(62, 130, 255);
+}

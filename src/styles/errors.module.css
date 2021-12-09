@@ -1,0 +1,76 @@
+.InputError{
+  position: relative;
+  animation: errorAnim 0.3s forwards ease;
+}
+.InputError::after{
+  content: "Обязательно к заполнению";
+  display: inline-block;
+  position: absolute;
+  font-size: 12px;
+  top:52px;
+  left:10px;
+  color:red;
+  animation: errorDescAnim 0.6s forwards ease;
+}
+
+.lessOrderSymbol{
+  position: relative;
+  animation: errorAnim 0.3s forwards ease;
+}
+.lessOrderSymbol::after{
+  content: "Минимум 8 символов";
+  display: inline-block;
+  position: absolute;
+  font-size: 12px;
+  top:52px;
+  left:10px;
+  color:red;
+  animation: errorDescAnim 0.6s forwards ease;
+}
+.auntError, 
+.notRepeatError,
+.notValidLogin,
+.notValidMail,
+.notValidPass,
+.notFree,
+.notValidLength,
+.callbackError{
+  position: relative;
+  animation: errorAnim 0.3s forwards ease;
+}
+.auntError::after,
+.notRepeatError::after,
+.notValidLogin::after,
+.notValidMail::after,
+.notValidPass::after,
+.notFree::after,
+.notValidLength::after,
+.callbackError::after{
+  display: block;
+  position: absolute;
+  font-size: 12px;
+  top:-20px;
+  right: -1px;
+  color:red;
+  animation: errorDescAnim 0.6s forwards ease;
+}
+.auntError::after{ content: "Обязательно к заполнению" }
+.notRepeatError::after{ content: "Пароли не совпадают" }
+.notValidLogin::after{ content: "Только латинские буквы и цифры" }
+.notValidMail::after{ content: "Неправильный формат почты"}
+.notValidPass::after{ content: "Минимум 8 символов"}
+.notFree::after{ content: "Занято"}
+.notValidLength::after{ content:"Логин должен быть от 5-ти до 20-ти символов"}
+.callbackError::after { content:"Обязательно к заполнению"}
+
+.error{
+  animation: errorAnim 0.3s forwards ease;
+}
+
+@keyframes errorAnim {
+  to{border: 1px solid red;}
+}
+@keyframes errorDescAnim {
+  from{opacity: 0}
+  to{opacity: 1}
+}

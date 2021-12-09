@@ -1,0 +1,125 @@
+.trackPage{
+  display: block;
+  width: 1200px;
+  margin: 100px auto;
+}
+.title{
+  font-size: 40px;
+  font-weight: 300;
+  color: #00a942;
+}
+.container{ display: flex; justify-content: space-between }
+.inputBlock{ display: block;}
+.inputData{ display: flex; align-items: center;} 
+.inputArea{
+  box-sizing: border-box;
+  width: 555px;
+  height: 45px;
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  align-items: center;
+  margin-right: 20px;
+}
+.inputArea.active{ border: 1px solid #00a942 }
+
+.inputArea input{
+  width:85%;
+  height: 40px;
+  border:none;
+  outline: none;
+}
+.cancel{
+  width: 20px;
+  padding-top: 3px;
+  height: fit-content;
+  opacity: 0.7;
+}
+.inputArea svg{ cursor: pointer }
+
+.submitBtn{
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #00a942;
+}
+.submitBtn:hover{
+  animation: btnAnim 0.3s ease forwards;
+}
+@keyframes btnAnim {
+  from{background-color: #00a942;}
+  to{background-color: #00c54c;}
+}
+.warning{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.warnIcon{
+  box-sizing: border-box;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: rgb(255, 115, 0);
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+  padding-left: 1px;
+}
+.warning a{
+  color: #00a942;
+  font-weight: 500;
+}
+.phoneTrack{
+  text-align: center;
+  box-sizing: border-box;
+  width: 450px;
+  height: 360px;
+  padding: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.phoneTrack h4{
+  color: #00c54c ;
+  font-size: 22px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.qrBlocks{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.qrBlock{
+  display: block;
+  height: 200px;
+  width: 400px;
+}
+.qrBlock img{
+  margin: auto;
+  display: block;
+  width: 130px;
+}
+.qrBlock .app{
+  margin-top: 10px;
+  width: 160px;
+  height: 45px;
+}
+.joke{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.jokeAccent{
+  color:#00a942;
+  font-weight: 600;
+}

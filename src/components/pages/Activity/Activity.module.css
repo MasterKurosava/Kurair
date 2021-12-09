@@ -1,0 +1,175 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.container{
+  display: flex;
+  max-width: 1200px;
+  width: fit-content;
+}
+.from{
+  align-items: baseline;
+  width: 400px;
+  margin: 0 20px 0 40px;
+}
+.to{
+  align-items: baseline;
+  width: 400px;
+  margin: 0 0 0 20px;
+}
+
+.replace img{
+  margin-top: 12px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.popularSity{
+  display: flex;
+  list-style: none; 
+}
+.popularSity li{
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 8px;
+  color:rgb(160, 160, 160);
+  text-decoration: underline;
+}
+.popularSity li:hover{
+  color:rgb(102, 102, 102)
+}
+.name{
+  display: block;
+  width: 500px;
+}
+.contractArea{
+  display: flex;
+  height: 70px;
+  margin-left: 40px;
+}
+.contractArea input{
+  background-color: transparent;
+}
+.contractArea input.active{
+  border: 1px solid #00a942
+}
+.inputArea{
+  box-sizing: border-box;
+  width: 350px;
+  height: 45px;
+  margin-right: 30px;
+  font-size: 14px;
+  border-radius: 10px;
+  border:1px solid rgba(0, 0, 0, 0.1);
+}
+.name, .telephone{
+  width: 100%;
+  box-sizing: border-box;
+  height:45px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+}
+
+.preNumberBlock{
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  width: 80px;
+  height: 45px;
+  margin-right: 5px;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.preNumberInput{
+  box-sizing: border-box;
+  width: 40px;
+  height: 45px;
+  margin:0 2px 0 10px;
+  font-size: 16px;
+  border: none!important;
+}
+.preNumberBlock svg{
+  user-select: none;
+  display: block;
+  width: 100%;
+  height: 15px;
+  padding: 10px 5px 10px 5px;
+  transform: rotate(-90deg);
+
+}
+.preNumberBlock svg path{ stroke: #00a942}
+
+.preNumberBlock svg.down{ transform: rotate(90deg) }
+.preNumberBlock svg path.down{ stroke: #ADAFB4 }
+
+.name:focus, .telephone:focus, .preNumberInput:focus{
+  border:0;
+  outline: 0;
+}
+.prenumberList{
+  z-index: 200;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  top:47px;
+  width: 80px;
+  max-height: 200px;
+  height: fit-content;
+  background: white;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top: 0;
+  box-shadow: 0px 0px 1px 1px rgba(199, 199, 199, 0.822);
+}
+.prenumberList.active{
+  display: block;
+}
+.prenumberList ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.prenumberList li{
+  display: flex;
+  text-align: end ;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 8px 0;
+}
+.prenumberList li:hover{
+  background: rgb(243, 243, 243);
+}
+.prenumberList img{
+  height: 13px;
+  margin: 0 5px 0 6px;
+}
+.lessSymbol{
+  position: relative;
+  animation: errorAnim 0.3s forwards ease;
+}
+.lessSymbol::after{
+  content: "Минимум 8 цифр";
+  display: inline-block;
+  position: absolute;
+  font-size: 12px;
+  top:52px;
+  left:10px;
+  color:red;
+  animation: errorDescAnim 0.6s forwards ease;
+}
+
+@keyframes errorAnim {
+  to{border: 1px solid red;}
+}
+@keyframes errorDescAnim {
+  from{opacity: 0}
+  to{opacity: 1}
+}
+

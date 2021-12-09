@@ -1,0 +1,26 @@
+.feedbackPage{
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.title{ margin-top: 100px }
+.title h2{
+  font-size: 40px;
+  font-weight: 300;
+  color:#00a942;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0 0;
+}
+.info h2{
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.contracts{
+  font-size: 21px;
+  margin-bottom: 20px;
+  color: #00a942;
+}

@@ -1,0 +1,523 @@
+{
+  "points":[
+    {
+      "code":"ALM22",
+      "adress":"10 мкр, 13",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":false,
+        "workSunday":false
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Берегового(Жандосова), Берегового(Шаляпина)","Жандосова-Берегового, вниз по Берегового с правой стороны вдоль улицы"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (747)079-86-35"],
+        "mail":["s.beisembaeva@cdek.ru"]
+      },
+      "cords":[43.216148, 76.867240],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/4467/7147_image",
+        "https://pvzimage.cdek.ru/images/4467/7149_image"
+      ]
+    },
+
+    {
+      "code":"ALM28",
+      "adress":"11 микрорайон, пр-т. Алтынсарина, 27",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["ул. Жандосова, пр-т. Алтынсарина","В здании Каспи банка, вход с торца"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (707)919-10-08","+7 (727)269-00-03","+7 (700)515-13-63"],
+        "mail":["zh.imanbekova@cdek.ru"]
+      },
+      "cords":[43.219341, 76.873498],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/6361/35432_image",
+        "https://pvzimage.cdek.ru/images/6361/35434_image",
+        "https://pvzimage.cdek.ru/images/6361/35436_image"
+      ]
+    },
+    
+    {
+      "code":"ALM32",
+      "adress":"Мкр Жетысу -2, 69Б",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Улица Саина","Ресторан Жетысу"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (708)354-28-01"],
+        "mail":["a.refel@cdek.ru"]
+      },
+      "cords":[43.219257, 76.847387],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/7204/26150_image",
+        "https://pvzimage.cdek.ru/images/7204/26155_image",
+        "https://pvzimage.cdek.ru/images/7204/26156_image",
+        "https://pvzimage.cdek.ru/images/7204/26148_image",
+        "https://pvzimage.cdek.ru/images/7204/26147_image"
+      ]
+    },
+
+    {
+      "code":"ALM13",
+      "adress":"мкр-н Самал-1, 18, 1",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"16:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Кондитерская фабрика, Жолдасбекова","Напротив Достык Плаза, возле кафе 'Дегирмен'"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (727)354-54-99","+7 (700)354-54-99"],
+        "mail":["kuttubekov.k@cdek.ru"]
+      },
+      "cords":[43.234883, 76.954781],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/2127/2423_4_ALM13",
+        "https://pvzimage.cdek.ru/images/2127/2115_2_ALM13",
+        "https://pvzimage.cdek.ru/images/2127/2114_1_ALM13"
+      ]
+    },
+
+    {
+      "code":"ALM36",
+      "adress":"Мкр.аксай-4, 70Б",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Улугбека","Офис находится в ТД НУР"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (747)700-05-22"],
+        "mail":["n.sakenov@cdek.ru"]
+      },
+      "cords":[43.225900, 76.840413],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/7697/26078_image",
+        "https://pvzimage.cdek.ru/images/7697/26082_image"
+      ]
+    },
+
+    {
+      "code":"ALM25",
+      "adress":"Назарбаева, 65",
+      "undeground":["Жибек жолы","Райымбек"],
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Макатаева-Назарбаева","Остановка Макатаева-Назарбаева, между банком Центркредит и Жусан банком. Бизнес центр, 15 кабинет"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (776)969-17-63"],
+        "mail":["a.amanzhol@cdek.ru"]
+      },
+      "cords":[43.263494, 76.945206],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/5611/13051_image",
+        "https://pvzimage.cdek.ru/images/5611/13053_image"
+      ]
+    },
+
+    {
+      "code":"ALM24",
+      "adress":"пр-т. Аль-Фараби, 30Б",
+      "undeground":["Байконур"],
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["7-ми этажный бизнес центр за жилым комплексом «Парк Резидентс». Вход со стороны парковки."],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (700)430-00-48"],
+        "mail":["b.abuov@cdek.ru"]
+      },
+      "cords":[43.221378, 76.935912],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/4575/7951_image",
+        "https://pvzimage.cdek.ru/images/4575/7945_image",
+        "https://pvzimage.cdek.ru/images/4575/7947_image",
+        "https://pvzimage.cdek.ru/images/4575/7949_image",
+        "https://pvzimage.cdek.ru/images/4575/7953_image"
+      ]
+    },
+
+    {
+      "code":"ALM23",
+      "adress":"пр-т. Раймбека, 165, 101",
+      "undeground":["Раймбек Батыра"],
+      "weekdaysTime":{
+        "min":"9:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Транспортный колледж","Здание находится прямо по пр-т. Райымбека между улицами Желтоксан и Наурызбай батыра"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (747)538-75-14","+7 (747)538-77-14"],
+        "mail":["v.grishin@cdek.ru"]
+      },
+      "cords":[43.270108, 76.935222],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/4488/7277_image",
+        "https://pvzimage.cdek.ru/images/4488/7281_image"
+      ]
+    },
+
+    {
+      "code":"ALM26",
+      "adress":"пр. Гагарина, 236б",
+      "undeground":["Алатау"],
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Березовского"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (707)507-50-03","+7 (727)339-81-31","+7 (727)391-26-61"],
+        "mail":["denis.ten@cdek.ru"]
+      },
+      "cords":[43.213557, 76.898416],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/5718/13913_image"
+      ]
+    },
+
+    {
+      "code":"ALM10",
+      "adress":"пр.Раймбека, 212/1, 113",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"16:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Райымбека"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (727)330-03-29"],
+        "mail":["Tovkach.I@cdek.ru"]
+      },
+      "cords":[43.260371, 76.892613],
+      "photos":[]
+    },
+
+    {
+      "code":"ALM14",
+      "adress":"Проспект Сейфуллина 9А/Шолохова 29, -, 2 этаж, бутик B-14",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Шолохова","Торговый центр «Жибек Жолы» (бывший ТЦ Mango) на пересечении ул.Шолохова 29/ Сейфуллина 9А. 2 этаж, бутик В-14"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (705)300-36-00"],
+        "mail":["m.atagulova@cdek.ru"]
+      },
+      "cords":[43.260371, 76.892613],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/2353/2584_2_ALM14",
+        "https://pvzimage.cdek.ru/images/2353/2583_1_ALM14",
+        "https://pvzimage.cdek.ru/images/2353/2585_3_ALM14"
+      ]
+    },
+
+    {
+      "code":"ALM17",
+      "adress":"ул Северное кольцо, 34/4",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["поворот Айнабулак","За барахолкой после Айнабулаковского светофора справа в ТЦ"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (727)252-12-01","+7 (727)252-12-08"],
+        "mail":["m.yusupova@cdek.ru"]
+      },
+      "cords":[43.326152, 76.909068],
+      "photos":[]
+    },
+    
+    {
+      "code":"ALM35",
+      "adress":"ул. Абая, 159/2",
+      "undeground":["станция Алатау"],
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Абая/Розыбакиева","Спортивно-тренировочный комплекс/трибунные помещения, возле магазина Ok Sport."],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (727)394-32-65"],
+        "mail":["p.li@cdek.ru"]
+      },
+      "cords":[43.240509, 76.889018],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/7693/26054_image",
+        "https://pvzimage.cdek.ru/images/7693/26056_image",
+        "https://pvzimage.cdek.ru/images/7693/26059_image",
+        "https://pvzimage.cdek.ru/images/7693/26060_image",
+        "https://pvzimage.cdek.ru/images/7693/26062_image"
+      ]
+    },
+
+    {
+      "code":"ALM8",
+      "adress":"ул. Айтеки Би, 187, 114",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"16:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Шафика Чокина","вход с Шафика Чокина 114"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (727)328-98-99","+7 (700)735-00-10","+7 (700)354-00-10"],
+        "mail":["kuttubekov.k@cdek.ru"]
+      },
+      "cords":[43.256388, 76.909556],
+      "photos":[]
+    },
+
+    {
+      "code":"ALM19",
+      "adress":"ул. Джетысуйская, 4, 115",
+      "undeground":["Жибек жолы", "Раймбек Батыра"],
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Макатаева, Зеленый базар (ул. Джетысуйская)","Жетысу 4, жилой комплекс"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (708)973-59-10"],
+        "mail":["cds@cdek.ru"]
+      },
+      "cords":[43.268738, 76.948759],
+      "photos":[]
+    },
+
+    {
+      "code":"ALM33",
+      "adress":"ул. Жандосова, 3",
+      "undeground":["Алатау"],
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Жандосова, 3","Находится на пересечении Ауэзова - Жандосова. Автобусные маршруты 56, 123, 66"],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (747)362-54-90"],
+        "mail":["a.esintaev@cdek.ru"]
+      },
+      "cords":[43.234955, 76.907070],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/7435/22451_image",
+        "https://pvzimage.cdek.ru/images/7435/22455_image",
+        "https://pvzimage.cdek.ru/images/7435/22453_image",
+        "https://pvzimage.cdek.ru/images/7435/22457_image"
+      ]
+    },
+    
+    {
+      "code":"ALM37",
+      "adress":"ул. Жуалы, 39",
+      "weekdaysTime":{
+        "min":"10:00",
+        "max":"20:00"
+      },
+      "weekendsTime":{
+        "min":"10:00",
+        "max":"18:00"
+      },
+      "filters":{
+        "postamat":false,
+        "highWeight":true,
+        "workSunday":true
+      },
+      "classific":["Пункт выдачи заказов","Примерочная"],
+      "busStops":["Тулпар","От остановки Тулпар 200 метров южнее, рядом с гостиницей Лейла."],
+      "money":["сash","bank","super"],
+      "contacts":{
+        "telephone":["+7 (747)733-73-00"],
+        "mail":["n.amirzhanov@cdek.ru"]
+      },
+      "cords":[43.232012, 76.789478],
+      "photos":[
+        "https://pvzimage.cdek.ru/images/7950/34604_image",
+        "https://pvzimage.cdek.ru/images/7950/34606_image",
+        "https://pvzimage.cdek.ru/images/7950/34608_image",
+        "https://pvzimage.cdek.ru/images/7950/34610_image"
+      ]
+    }
+  ]
+}

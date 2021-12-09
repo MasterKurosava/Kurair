@@ -1,0 +1,272 @@
+.calculatePage{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.calculatePage h2{
+  letter-spacing: -2px;
+  font-size:44px;
+  font-weight: 300;
+  color: #00a942;
+  margin-bottom: 120px;
+}
+.calculatePage p{
+  font-size: 18px;
+  font-weight: 300;
+}
+.calcSection{
+  width: 100%;
+  height: fit-content;
+  margin: 70px 0;
+}
+.calcSection h3{
+  margin: 0;
+  font-size: 27px;
+  font-weight: 400;
+  color: rgb(214, 214, 214);
+}
+hr{
+  margin-top: 10px;
+  border: 1px solid rgb(214, 214, 214);
+}
+.inputBlock{
+  display: block;
+  margin-top: 40px;
+  align-items: center;
+}
+p.settingTittle{
+  display: inline-block;
+  width: 200px;
+  font-size:20px; 
+  font-weight: 400;
+  margin-right: 80px;
+}
+.select{
+  margin: 20px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.inputArea{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  width: 400px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.inputArea.active{
+  border:1px solid #00a942;
+}
+.inputArea input{
+  width: 80%;
+  height: 40px;
+  margin-left: 5px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.select{
+  display: flex;
+}
+.selectCurrency{
+  position: relative;
+}
+.currencyData{
+  z-index: 0;
+  display: none;
+  position: absolute;
+  top:46px;
+  width: 120px;
+  height: fit-content;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+  background-color: white;
+  box-shadow: -2px 1px 2px rgba(0,0,0,0.15), 
+    2px 1px 2px rgba(0,0,0,0.15);
+}
+.currencyData ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.currencyData li{
+  display: inline-block;
+  user-select: none;
+  padding-top: 6px;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  height: 30px;
+}
+.currencyData li:hover{
+  background-color: #eeeeee;
+}
+.currencyData.active{
+  display: block;
+}
+.selectCurrency{
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 120px;
+  height: 45px;
+  border-radius: 10px;
+}
+.selectCurrency.active{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 1px solid #00a942;
+}
+.selectCurrency input{
+  width: 70px;
+  height: 40px;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 15.5px;
+  background-color: transparent;
+  border: none;
+}
+.selectCurrency svg{ transform: rotate(-90deg) }
+.selectCurrency svg.down{ 
+  transform: rotate(-90deg);
+  stroke: #00a942
+ }
+
+.setAccuracy{
+  display: flex;
+  margin: 50px 0;
+  align-items: center;
+}
+.settings input{
+  display: none;
+}
+.settings label{
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 19px;
+  margin-right: 80px;
+}
+.settings label::before{
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  content: "";
+
+  left: -10px;
+  top:3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  background: white;
+}
+.settings input:checked + label::before{
+  border: 4px solid #00a942;
+}
+.wrapper{
+  margin: 50px 0;
+  font-size: 19px;
+}
+.row{
+  box-sizing: border-box;
+  height: 125px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.2fr;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.row:hover{
+  background-color: #f9f9f9;
+}
+.row.active{
+  border: 3px solid #00a942;
+  background-color: #f9f9f9;
+}
+.row div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.row .type{
+  padding-left: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+.inputSize{
+  box-sizing: border-box;
+  margin-right: 20px;
+  align-items: center;
+  padding: 0 10px;
+  width: 120px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+.inputSize.active{
+  border: 1px solid #00a942;
+}
+.inputSize input{
+  display: block;
+  width: 95%;
+  height: 90%;
+  border: none;
+  outline: none;
+}
+.addMore{
+  width: 100%;
+  height: 125px;
+  border-top: 1px solid rgb(214, 214, 214);
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+.addMore button{
+  cursor: pointer;
+  display: inline-block;
+  margin: 50px 0 50px 300px;
+  color:#232323;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+.addMore button:hover{
+  color: #00a942;
+}
+.calculateBtn{
+  text-decoration: none;
+}
+.calculateBtn button{
+  cursor: pointer;
+  display: block;
+  margin: 40px auto;
+  width: 600px;
+  height: 80px;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color:white;
+  border: none;
+  background-color: #232323;
+}
+.removeBlock{
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+.removeBlock a{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #00a942;
+  font-size: 18px;
+}
+.errorMsg{
+  width: fit-content;
+  margin: 20px auto;
+  color:red;
+}

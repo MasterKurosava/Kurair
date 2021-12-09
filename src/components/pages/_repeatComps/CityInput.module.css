@@ -1,0 +1,75 @@
+.cityContent{
+  position: relative;
+}
+
+.inputArea{
+  display: flex;
+  width: 400px;
+  height: 50px;
+  padding: 0 5px 0 0;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  align-items: center;
+}
+.inputArea .search{
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.inputArea input{
+  width: 350px;
+  padding-left: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 0;
+}
+.inputArea input:focus{
+  outline: none;
+}
+.inputArea.active{
+  border: 1px solid #00a942;
+  border-radius:15px;
+}
+.inputArea.droped{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.inputArea .loading{
+  padding: 10px 0;
+}
+.cansel{
+  cursor: pointer;
+  margin: 4px 4px 0 0;
+}
+
+.cities{
+  z-index: 5;
+  position: absolute;
+  width: 400px;
+  max-height: 250px;
+  overflow-y: scroll;
+  background-color: white;
+  box-shadow:
+   0 1px 2px rgba(0, 0, 0, .3),
+   -23px 0 20px -35px rgba(0, 0, 0, .8),
+   23px 0 20px -35px rgba(0, 0, 0, .8),
+   0 0 20px rgba(0, 0, 0, .1) inset;
+}
+
+.cities_list{
+  width: 100%;
+  margin: 10px 0;
+  padding: 0;
+}
+.cities_item{
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.cities_item:hover{
+  background-color: #f6f7f9;
+  opacity: 1;
+}
