@@ -9,7 +9,7 @@ import ForClients from "./comps/ForClients";
 
 const Webshops=()=>{
   const activityForms=[
-    {name:"Рассчитать стоимость", form:<FromTo action={"Рассчитать стоимость"}/>},
+    {name:"Рассчитать стоимость", form:<FromTo action={"Рассчитать стоимость"} link={"/individual/calculate"}/>},
     {name:"Заключить договор", form:<Contract action={"Отправить"}/>},
   ];
   return(

@@ -42,13 +42,13 @@ const Contract=({action})=>{
 
   const getForm=()=>{
     const normalNumber=11;
-    const currentNumber=preNumInput.length + lastNumber.length- 1;
-    if(name && preNumInput && lastNumber && currentNumber==normalNumber){ //если все ок
+    const currentNumber=preNumInput.length + lastNumber.trim().length - 1;
+    if(name.trim() && lastNumber && currentNumber==normalNumber){ //если все ок
       setLastNumber('');
       setName('');
       alert("Заявка принята!");
     }else{
-      if(!name){nameLabel.current.classList.add(er.InputError) }             //если нет имени
+      if(!name.trim()){nameLabel.current.classList.add(er.InputError) }             //если нет имени
       if(!lastNumber){ lastNumberLabel.current.classList.add(er.InputError) } //если нет номера
       else if(currentNumber!=normalNumber){                                   //если номер слишком короткий
         lastNumberLabel.current.classList.add(er.lessOrderSymbol)

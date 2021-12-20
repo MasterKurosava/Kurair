@@ -34,7 +34,7 @@ const Profile=()=>{
       el.classList.remove(sl.active);
     })
     changeUser({login:data.login, email, secondEmail, adress, telephone});
-    setDisabled(false);
+    setDisabled(true);
   }
 
   const checkTelephone=(value)=>{

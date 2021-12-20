@@ -68,28 +68,30 @@ const CalculatePrice = () =>{
     currencyBlock.current.classList.remove(sl.active);
     currencyList.current.classList.remove(sl.active);
   }
+
   //Проверяем введенные параметры
   const checkFilledList=()=>{
-    setErrors('');
+    setErrors(false);
     if(approxList){ //если у нас примерные параметры
       approxList.forEach(el => {
         if(!el.params.wt || !el.params.w || !el.params.l || !el.params.h){
-          setErrors("Выберите все параметры или удалите лишние");
+          return("Выберите все параметры или удалите лишние");
         }
       });
     }else if(exactlyList){//если у нас точные параметры
       exactlyList.forEach(el => {
         if(!el.params.wt || !el.params.w || !el.params.l || !el.params.h){
-          setErrors("Заполните все параметры!");
+          return("Заполните все параметры!");
         }
       });
-    }else setErrors("Вы не выбрали параметры!"); //если у нас нет параметров
+    }else return("Вы не выбрали параметры!"); //если у нас нет параметров
   }
 
   //проверяем форму
-  const getForm=(e)=>{
+  const getForm=async (e)=>{
     e.preventDefault();
-    checkFilledList(); //проверяем на ошибки
+    const errors= checkFilledList(); //проверяем на ошибки
+    setErrors(errors);
     if(cityFrom && cityTo && !errors){//если есть основые пункты
       const result={
         from:cityFrom, 

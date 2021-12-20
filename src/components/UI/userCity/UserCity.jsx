@@ -14,6 +14,7 @@ const UserCity=({closeWindow, changeCity})=>{
   const [currentCountry, setCountry]=useState('Россия');
   const [listVisable, setVisable]=useState(false);
   const locationLabel=useRef();
+  const unFocusPart=useRef();
 
   //при выборе закрываем список
   useEffect(()=>{
@@ -27,7 +28,11 @@ const UserCity=({closeWindow, changeCity})=>{
   },[listVisable])
 
   //делаем расфокус при клике на свободную часть
-
+  const unFocus=(e)=>{
+    if(e.target == unFocusPart.current){
+      closeWindow(false)
+    }
+  }
   //проверяем локацию и ставим новую
   const getLocation=()=>{
     if(location){
@@ -39,7 +44,7 @@ const UserCity=({closeWindow, changeCity})=>{
     }
   }
   return(
-    <div className={sl.userCity}>
+    <div ref={unFocusPart} className={sl.userCity} onClick={(e)=>unFocus(e)}>
       <div className={sl.conteiner}>
         <div className={sl.headerTitle}>
           <h3>Выбор региона</h3>
@@ -48,8 +53,8 @@ const UserCity=({closeWindow, changeCity})=>{
         <div className={sl.cityForm}>
           <div className={sl.country} onClick={(e)=>e.stopPropagation()}> 
             <p className={sl.countryLabel}> Выберите страну:</p>
-            <div className={sl.inputArea} onClick={()=>setVisable(true)}>
-              <input value={currentCountry} className={sl.countryInput} disabled/>
+            <div className={sl.inputArea} onClick={()=>listVisable ? setVisable(false) : setVisable(true)}>
+              <input value={currentCountry} className={sl.countryInput} disabled />
               <svg width="13" height="13" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path  d="M8 15L1 8L8 1" stroke="#ADAFB4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
               </svg>
@@ -86,10 +91,10 @@ const UserCity=({closeWindow, changeCity})=>{
           <div className={sl.selectCity}>
             <p className={sl.countryLabel}>Или укажите в поле:</p>
             <CityInput
-            ref={locationLabel}
-            value={location}
-            change={setLocation}
-            placeholder={''}
+              ref={locationLabel}
+              value={location}
+              change={setLocation}
+              placeholder={''}
             />
           </div>
         </div>

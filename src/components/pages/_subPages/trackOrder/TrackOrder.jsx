@@ -30,8 +30,8 @@ const TrackOrder = () =>{
   }
 
   const getForm=()=>{
-    if(orderNum && orderNum.length==8){
-      console.log(orderNum);
+    if(orderNum.trim().length==8){
+      //находим заказ
     }else{
       if(!orderNum) orderLabel.current.classList.add(er.InputError)
       else if(orderNum!=8) orderLabel.current.classList.add(er.lessOrderSymbol)

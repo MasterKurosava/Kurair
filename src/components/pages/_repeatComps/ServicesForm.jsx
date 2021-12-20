@@ -1,7 +1,6 @@
 import sl from "./View.module.css";
 
-import React, { useState } from "react";
-import classNames from "classnames";
+import React, { useState } from "react"; 
 
 const ServicesForm = ({activityForms}) =>{
   const [currentActive, setCurrentActive]=useState(activityForms[0].name);
@@ -11,7 +10,7 @@ const ServicesForm = ({activityForms}) =>{
     <div className={sl.orderActivity}>
      {activityForms.map(e=>{
        return <div 
-          className={classNames({'View-module_active_t6' : e.name==currentActive})} 
+          className={e.name==currentActive ? sl.active : ''} 
           onClick={()=>setCurrentActive(e.name)} 
           key={e.name}
         >{e.name}</div>

@@ -174,7 +174,7 @@ const Callback=({close})=>{
                 value={contract} 
                 className={sl.formInput}
                 placeholder="Выберите номер"
-                text="number"
+                type="number"
               />
               {contract ?  <Cansel className={sl.closeInput} close={setContract}/> : ''}
             </div>

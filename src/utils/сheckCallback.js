@@ -1,6 +1,11 @@
 import er from "../styles/errors.module.css";
 
 const checkCallback=(name, preNumber, number, theme, policy, nameLabel, preNumLabel, numberLabel, themeLabel, policyLabel )=>{
+   name=name.trim()
+   preNumber=preNumber.trim()
+   number=number.trim()
+   theme=theme.trim()
+
   if(!name || !number || !theme){
     if(!name) nameLabel.current.classList.add(er.callbackError);
     if(!number){ 
@@ -10,8 +15,8 @@ const checkCallback=(name, preNumber, number, theme, policy, nameLabel, preNumLa
     if(!policy) policyLabel.current.classList.add(er.callbackError);
     return true;
   }else{
-    const normalNum=12-preNumber;
-    if(preNumber+number!==normalNum){
+    const normalNum=12-preNumber.length;
+    if(number.length!==normalNum){
       numberLabel.current.classList.add(er.callbackError);
       preNumLabel.current.classList.add(er.error);
       return true;

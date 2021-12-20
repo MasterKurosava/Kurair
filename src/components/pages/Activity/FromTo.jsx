@@ -24,15 +24,17 @@ const FromTo = ({action, link}) =>{
   }
   
   const getForm=()=>{
-    if(fromInput && toInput){
-     dispatch({type:"SET_FROMTO", payload:{from:fromInput, to:toInput}})
+    const from=fromInput.trim();
+    const to=toInput.trim();
+    if(from && to){
+      dispatch({type:"SET_FROMTO", payload:{from:from, to:toInput}})
       windowChanging();
       setTimeout(()=>history.push(link),1500);
     }else{
-      if(!fromInput){
+      if(!from){
         fromLabelRef.current.classList.add(er.InputError);
       }
-      if(!toInput){
+      if(!to){
         toLabelRef.current.classList.add(er.InputError);
       }
     }

@@ -2,7 +2,6 @@ import React from "react";
 import Loading from "../components/UI/Loading";
 
 import slReg from "../components/UI/authentication/Authentication.module.css";
-import slChg from "../components/pages/cabinet/Cabinet.module.css";
 import er from "../styles/errors.module.css";
 import { getUsersData } from "./usersWork";
 
@@ -33,7 +32,16 @@ const getLoginForm=(login, password, setResult)=>{
   return result || setResult(<span className={slReg.notFound}>Неправильный логин или пароль</span>)
 }
 
-const checkRegister=(login,password, repeat, email, logLabel, pasLabel, repeatLabel, mailLabel,)=>{
+const checkRegister=(login, password, repeat, email, logLabel, pasLabel, repeatLabel, mailLabel,)=>{
+  login=login.trim()
+  password=password.trim();
+  repeat=repeat.trim();
+  email=email.trim();
+  logLabel=logLabel;
+  pasLabel=pasLabel;
+  repeatLabel=repeatLabel;
+  mailLabel=mailLabel;
+
   let error=false;
   //удаляем прошлые ошибки
   [logLabel, pasLabel, repeatLabel, mailLabel].forEach(label=>{

@@ -45,7 +45,6 @@ const RegisterForm=({changeForm})=>{
   //проверяем форму
   const getForm=()=>{
     const error=checkRegister(login, password, repeatPas, email, logLabel, pasLabel,repeatLabel, mailLabel);
-    console.log(error);
     if(error) return;
     setUser(login, password, email);
     setSuccess();
