@@ -1,3 +1,3 @@
 # Kurair
 
-Open dist and run index.htnl
+Open dist and run index.html
